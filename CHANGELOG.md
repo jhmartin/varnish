@@ -2,6 +2,10 @@ varnish Cookbook CHANGELOG
 ==========================
 This file is used to list changes made in each version of the varnish cookbook.
 
+v2.3.0
+-------------------
+- Support varnish reload under sysV init.
+
 v2.2.0
 -------------------
 - Fix default storage bug. Specify a default file storage location, as one is required with file backend, fixes #72. Adjust template for default configuration of varnish so that it won't do the file backend without a path, since that's illegal syntax.
